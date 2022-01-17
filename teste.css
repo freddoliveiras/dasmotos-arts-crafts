@@ -1,0 +1,47 @@
+body {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+}
+
+/*////////////////////////////////////////////////////
+                TABLES
+////////////////////////////////////////////////////*/                
+
+/* general for table */
+table {
+    border-collapse: collapse;
+}
+
+/* general for rows, column headers and cells */
+table * {
+    border: 1px;
+    border-style:solid;
+    border-color: gray;
+    padding: 0.3em; 
+    font-size: 14px;
+}
+
+/* specific for only column headers. It inherits from the above what was not specified */
+table th {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(212, 212, 212);
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+}
+
+/* specific for numeric cels (class="numericcells")*/
+.numericcells {
+    text-align: right;
+    padding-left: 5em;
+}
+
+footer {
+    color: red;
+}
+
+.n1 {
+    color: seagreen;
+}
